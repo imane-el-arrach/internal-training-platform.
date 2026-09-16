@@ -120,11 +120,6 @@ alembic current
 - [Architecture frontend détaillée](docs/ARCHITECTURE_FRONTEND.md).
 - [Guide de lancement](GUIDE.md) : procédure destinée à l'encadrant pour installer et lancer la plateforme sur une nouvelle machine.
 
-## Sécurité et fichiers locaux
-
-Les fichiers `.env`, les vidéos ou documents téléversés et les images locales de personnalisation ne doivent pas être versionnés. Ils sont exclus par les fichiers `.gitignore` correspondants.
-
-Ne partagez jamais une clé Gemini, un mot de passe PostgreSQL ou la valeur de `SECRET_KEY` dans le dépôt.
 
 ## Équipe et contexte
 
