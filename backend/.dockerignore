@@ -1,0 +1,19 @@
+# Secrets et configuration locale
+.env
+.env.*
+!.env.example
+
+# Dépendances et caches locaux
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Données métiers locales : montées séparément au besoin
+uploads/
+
+# Outils et fichiers temporaires
+.vscode/
+.idea/
+*.log

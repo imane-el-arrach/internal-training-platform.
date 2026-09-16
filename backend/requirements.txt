@@ -1,0 +1,23 @@
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+sqlmodel==0.0.22
+alembic==1.13.2
+psycopg[binary]==3.2.1
+python-jose[cryptography]==3.3.0
+passlib[argon2]==1.7.4
+pydantic-settings==2.5.2
+python-multipart==0.0.9
+
+
+# Pipeline d'ingestion IA (Phase A : extraction + embeddings)
+pypdf==4.3.1
+python-pptx==1.0.2
+sentence-transformers==3.1.1
+pgvector==0.3.4
+
+google-generativeai==0.8.3
+
+reportlab==5.0.0
+qrcode==8.2
+Pillow==12.3.0
+openpyxl==3.1.5
